@@ -1,0 +1,16 @@
+@use 'base/variables' as var;
+.footer{
+    background-color: var.$grisOscuro;
+    padding-bottom: 1rem;
+    .contenedor_footer{
+        padding-top: 2rem;
+        
+    }
+    .copyright{
+        color: var.$blanco;
+        text-align: center;
+    }
+    p{
+        margin: 0;
+    }
+}

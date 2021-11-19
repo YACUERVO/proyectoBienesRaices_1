@@ -1,0 +1,12 @@
+@use 'variables' as var;
+.seccion {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.contenido-centrado {
+    max-width: 800px;
+}
+.alinear_derecha{
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,26 @@
+@use 'base/mixins' as m;
+@use 'base/variables' as var;
+
+.contenedor_anuncios{
+    @include m.tablet{
+        @include m.grid(3,2rem)
+    }        
+    
+}
+
+.anuncios{
+    background-color: lighten(var.$gris,5);
+    border: 1px solid darken(var.$gris, 10);
+
+    .contenido_anuncio{
+        padding: 2rem;
+    }
+    h3,p{
+        margin: 0;
+    }
+    .precio{
+        color: var.$verde;
+        font-weight: var.$bold;
+        font-size: 2.7rem;
+    }
+}
